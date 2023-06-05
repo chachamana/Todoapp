@@ -1,0 +1,22 @@
+.listitems {
+    &__wrapper {
+      margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      background: #ffffff;
+      padding: 30px;
+      box-sizing: border-box;
+
+    }
+    &__each{
+      span{
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      display: block;}
+    }
+    &__listicon{
+      padding-left: 0;
+    }
+  }
